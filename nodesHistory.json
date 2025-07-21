@@ -1,0 +1,741 @@
+[
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 3,
+        "SENSOR_TYPE_INT": 35,
+        "DEVICE_ID": "dd35",
+        "SENSOR_ADDRESS": [
+            "100000001"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 6,
+        "SENSOR_TYPE_INT": 36,
+        "DEVICE_ID": "dd36",
+        "SENSOR_ADDRESS": [
+            "100000001",
+            "100000002",
+            "100000003",
+            "100000004",
+            "100000005",
+            "100000006"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 37,
+        "DEVICE_ID": "dd37",
+        "SENSOR_ADDRESS": [
+            "100000001",
+            "100000002",
+            "100000003",
+            "100000004"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 40,
+        "DEVICE_ID": "dd40",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 42,
+        "DEVICE_ID": "dd42",
+        "SENSOR_ADDRESS": [
+            "100000001",
+            "100000002",
+            "100000003",
+            "100000004"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 43,
+        "DEVICE_ID": "dd43",
+        "SENSOR_ADDRESS": [
+            "100000001"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "cc01",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "cc02",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "cc03",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "cc04",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 3,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "1111",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "A7F2",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "3FA1",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "1A3F",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "A4F3",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 10,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "6F4C",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 1,
+        "DEVICE_ID": "A4F2",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 2,
+        "SENSOR_TYPE_INT": 8,
+        "DEVICE_ID": "6FAD",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 8,
+        "SENSOR_TYPE_INT": 1,
+        "DEVICE_ID": "1F6C",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 8,
+        "SENSOR_TYPE_INT": 38,
+        "DEVICE_ID": "7AFC",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 2,
+        "DEVICE_ID": "9FAC",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 3,
+        "DEVICE_ID": "5FAC",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 5,
+        "DEVICE_ID": "3AFC",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 33,
+        "DEVICE_ID": "1234",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 5,
+        "DEVICE_ID": "4321",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 17,
+        "DEVICE_ID": "6666",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 32,
+        "DEVICE_ID": "7777",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 22,
+        "DEVICE_ID": "5555",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 27,
+        "DEVICE_ID": "9876",
+        "SENSOR_ADDRESS": [
+            "9999"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 34,
+        "DEVICE_ID": "0000",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 35,
+        "DEVICE_ID": "8888",
+        "SENSOR_ADDRESS": [
+            "7878"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 41,
+        "DEVICE_ID": "3333",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 42,
+        "DEVICE_ID": "7845",
+        "SENSOR_ADDRESS": [
+            "5636",
+            "1234",
+            "0987",
+            "3457"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 44,
+        "DEVICE_ID": "9080",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 43,
+        "DEVICE_ID": "9955",
+        "SENSOR_ADDRESS": [
+            "3599"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "7721",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "1243",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 8,
+        "DEVICE_ID": "3232",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 11,
+        "DEVICE_ID": "1221",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 97,
+        "DEVICE_ID": "7878",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 8,
+        "SENSOR_TYPE_INT": 1,
+        "DEVICE_ID": "3A7F",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 8,
+        "SENSOR_TYPE_INT": 1,
+        "DEVICE_ID": "B2E4",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 2,
+        "DEVICE_ID": "8C1D",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 3,
+        "DEVICE_ID": "F5A6",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 5,
+        "DEVICE_ID": "1E39",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 33,
+        "DEVICE_ID": "D8B2",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 2,
+        "DEVICE_ID": "4F7C",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 3,
+        "DEVICE_ID": "A5D1",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 5,
+        "DEVICE_ID": "2C9E",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_an",
+        "MAX_SENSORS": 4,
+        "SENSOR_TYPE_INT": 33,
+        "DEVICE_ID": "7B03",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 8,
+        "DEVICE_ID": "6506",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 8,
+        "DEVICE_ID": "8FC7",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 9,
+        "DEVICE_ID": "535B",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 200,
+        "SENSOR_TYPE_INT": 22,
+        "DEVICE_ID": "809D",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 11,
+        "DEVICE_ID": "6C81",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 34,
+        "DEVICE_ID": "FB22",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 30,
+        "SENSOR_TYPE_INT": 35,
+        "DEVICE_ID": "EB94",
+        "SENSOR_ADDRESS": [
+            "C414"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 30,
+        "SENSOR_TYPE_INT": 35,
+        "DEVICE_ID": "B62E",
+        "SENSOR_ADDRESS": [
+            "D196",
+            "6456",
+            "D246",
+            "7B38",
+            "F324",
+            "664E",
+            "5BE6",
+            "AC89",
+            "31BC",
+            "16F3",
+            "4AD7",
+            "B4E7",
+            "C6FD",
+            "6D5E",
+            "C0F9",
+            "732A",
+            "6F9C",
+            "2DE7",
+            "624B",
+            "1010",
+            "AE80",
+            "AB8F",
+            "7A66",
+            "41C5",
+            "9291",
+            "48AE",
+            "5984",
+            "4D3A",
+            "EAB3",
+            "7F33"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 30,
+        "SENSOR_TYPE_INT": 36,
+        "DEVICE_ID": "9ECF",
+        "SENSOR_ADDRESS": [
+            "AE80",
+            "AB8F",
+            "7A66",
+            "41C5",
+            "9291",
+            "48AE",
+            "5984",
+            "4D3A",
+            "EAB3",
+            "7F33",
+            "B62E",
+            "D5EE",
+            "C38F",
+            "0F3E",
+            "51D0",
+            "6D3D",
+            "AB7E",
+            "810D",
+            "1996",
+            "81ED",
+            "DB5A",
+            "57F5",
+            "803F",
+            "F04B",
+            "72DF",
+            "0490",
+            "BE9B",
+            "55AC",
+            "B2F3",
+            "B5BC"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 37,
+        "DEVICE_ID": "4188",
+        "SENSOR_ADDRESS": [
+            "9ECF",
+            "E69C",
+            "AC88",
+            "32C9",
+            "1EFA"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 39,
+        "DEVICE_ID": "4F65",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 40,
+        "DEVICE_ID": "1C13",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 41,
+        "DEVICE_ID": "1DED",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 42,
+        "DEVICE_ID": "1EFA",
+        "SENSOR_ADDRESS": [
+            "AB7E",
+            "810D",
+            "1996",
+            "81ED",
+            "DB5A"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 44,
+        "DEVICE_ID": "9C62",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 43,
+        "DEVICE_ID": "803F",
+        "SENSOR_ADDRESS": [
+            "9ECF",
+            "E69C",
+            "AC88",
+            "32C9",
+            "1EFA"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 30,
+        "DEVICE_ID": "F04B",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_tm",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 31,
+        "DEVICE_ID": "72DF",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 5,
+        "SENSOR_TYPE_INT": 27,
+        "DEVICE_ID": "624B",
+        "SENSOR_ADDRESS": [
+            "181041012"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 29,
+        "DEVICE_ID": "AB7E",
+        "SENSOR_ADDRESS": [
+            "220428022"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 43,
+        "DEVICE_ID": "41C5",
+        "SENSOR_ADDRESS": [
+            "220428022"
+        ]
+    },
+    {
+        "DEVICE_TYPE": "beam_vw",
+        "MAX_SENSORS": 1,
+        "SENSOR_TYPE_INT": 1,
+        "DEVICE_ID": "7280",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 200,
+        "SENSOR_TYPE_INT": 22,
+        "DEVICE_ID": "1317",
+        "SENSOR_ADDRESS": 0
+    },
+    {
+        "DEVICE_TYPE": "beam_dg",
+        "MAX_SENSORS": 100,
+        "SENSOR_TYPE_INT": 29,
+        "DEVICE_ID": "1cb7",
+        "SENSOR_ADDRESS": [
+            "220428122",
+            "220428123",
+            "220428124",
+            "220428125",
+            "220428126",
+            "220428127",
+            "220428128",
+            "220428129",
+            "220428130",
+            "220428131",
+            "220428132",
+            "220428133",
+            "220428134",
+            "220428135",
+            "220428136",
+            "220428137",
+            "220428138",
+            "220428139",
+            "220428140",
+            "220428141",
+            "220428142",
+            "220428143",
+            "220428144",
+            "220428145",
+            "220428146",
+            "220428147",
+            "220428148",
+            "220428149",
+            "220428150",
+            "220428151",
+            "220428152",
+            "220428153",
+            "220428154",
+            "220428155",
+            "220428156",
+            "220428157",
+            "220428158",
+            "220428159",
+            "220428160",
+            "220428161",
+            "220428162",
+            "220428163",
+            "220428164",
+            "220428165",
+            "220428166",
+            "220428167",
+            "220428168",
+            "220428169",
+            "220428170",
+            "220428171",
+            "220428172",
+            "220428173",
+            "220428174",
+            "220428175",
+            "220428176",
+            "220428177",
+            "220428178",
+            "220428179",
+            "220428180",
+            "220428181",
+            "220428182",
+            "220428183",
+            "220428184",
+            "220428185",
+            "220428186",
+            "220428187",
+            "220428188",
+            "220428189",
+            "220428190",
+            "220428191",
+            "220428192",
+            "220428193",
+            "220428194",
+            "220428195",
+            "220428196",
+            "220428197",
+            "220428198",
+            "220428199",
+            "220428200",
+            "220428201",
+            "220428202",
+            "220428203",
+            "220428204",
+            "220428205",
+            "220428206",
+            "220428207",
+            "220428208",
+            "220428209",
+            "220428210",
+            "220428211",
+            "220428212",
+            "220428213",
+            "220428214",
+            "220428215",
+            "220428216",
+            "220428217",
+            "220428218",
+            "220428219",
+            "220428220",
+            "220428221"
+        ]
+    }
+]
