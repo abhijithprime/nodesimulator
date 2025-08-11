@@ -4,6 +4,7 @@ import Params
 from Params import SensorVariant
 import Log
 from Payload import GetFlashData
+from UpdateModeHandler import UpdateHandler
 
 
 class CmdHandler:
@@ -28,22 +29,34 @@ class CmdHandler:
         if ("device_info" in out):
             self.__HandleDeviceInfo(out)
         elif ("channel_info" in out):
+            time.sleep(5)
             self.__HandleChannelInfo(out, self.configured_sensors)
+            time.sleep(5)
         elif ("channel_enable" in out):
+            time.sleep(5)
             self.__HandleChannelEnable(out)
+            time.sleep(5)
         elif ("start_monitoring" in out):
+            time.sleep(5)
             self.__HandleStartMonitoring(out)
+            time.sleep(5)
         elif ("read_sensor" in out):
             self.__HandleReadSensor(out, self.configured_sensors)
         elif ("get_address" in out):
+            time.sleep(5)
             self.__HandleGetAddress(out)
         elif ("start_rfscan" in out):
+            time.sleep(5)
             self.__HandleStartRFScan(out, self.ser)
+            time.sleep(5)
         elif ("read_flash" in out):
+            time.sleep(5)
             self.__HandleReadFlash(out)
         elif ("calibrate_sensor" in out):
+            time.sleep(5)
             self.__HandleCalibrateSensor(out)
         elif ("erase_flash" in out):
+            time.sleep(5)
             self.__HandleEraseFlash(out)
         elif ("util_diag" in out):
             self.__HandleUtilDiag(out)
@@ -55,6 +68,8 @@ class CmdHandler:
             self.__HandleSensorDiag(out)
         elif ("node_config" in out):
             self.__HandleNodeConfig(out)
+        elif ("uu" in out.lower()):
+            self.__runUpdateMode()
         elif ("help" in out):
             print("Please use one of the commands below\n\tdevice_info\n\tchannel_info\n\tchannel_enable\n"
                   "\tstart_monitoring\n\tread_sensor\n\tget_address\n\tstart_rfscan\n\tread_flash\n\tcalibrate_sensor"
@@ -63,7 +78,12 @@ class CmdHandler:
             reply = "Command not found. Type 'help' for a list of commands\r\n"
             self.serial_write_log_and_print(reply)
 
+    def __runUpdateMode(self):
+        print("Running update mode")
+        updateHandler = UpdateHandler(self.ser)
+
     def __HandleDeviceInfo(self, out):
+        time.sleep(5)
         """For the command device_info"""
         data = out.split()
         if len(data) > 1:
@@ -227,7 +247,7 @@ class CmdHandler:
                     bit_vector = int(configured_sensors[int(sensor_id)][1])
                     bit_count = self.__countSetBits(bit_vector)
                     if bit_count == 3:
-                        reply = "read_sensor " + sensor_id + " 1234.00 unit 78230.00 unit 21321.00 unit 101 ms\r\n"
+                        reply = "read_sensor " + sensor_id + " 700.00 Hz 2890 ohm 99 % 101 ms\r\n"
                     elif bit_count == 2:
                         reply = "read_sensor " + sensor_id + " 1234.00 unit 78230.00 unit 101 ms\r\n"
                     elif bit_count == 1:
@@ -313,15 +333,25 @@ class CmdHandler:
     def __GenerateNoiseData(self):
         reply = "rf_noise "
         for i in range(int(Params.NUM_OF_CHANNEL)):
-            n = random.randint(70, 120)
+            n = random.randint(10, 120)
             reply += "-" + str(n) + " "
         reply += "\r\n"
         self.serial_write_log_and_print(reply)
 
     def __HandleReadFlash(self, out):
         """For the command read_flash"""
-        data = out.split()
-        flashData = GetFlashData(int(Params.DEVICE_ID, 16), int(data[1]), int(Params.IPI), Params.SENSOR_TYPE)
+        data = out.strip().split()
+
+        # Keep only 'read_flash' and the value
+        data = data[:2]
+
+        # Convert and conditionally replace -1 with 1
+        start = int(data[1])
+        if start == -1:
+            start = 1
+
+        flashData = GetFlashData(int(Params.DEVICE_ID, 16), start, int(Params.IPI), Params.SENSOR_TYPE)
+
         self.__PrintFlash(flashData)
 
     def __PrintFlash(self, rawFlash):
