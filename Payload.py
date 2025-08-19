@@ -124,8 +124,7 @@ def AddAData(sensorId, noOfData, dataType):
             sampleData = 123
             data[i * dataSize:(i + 1) * dataSize] = list(struct.pack('B', sampleData))
     PutToDataBuffer(sensorId, noOfData, dataType, data)
-
-def GetFlashData(id, day, IPI, sensorType, num_records=40000):  # Added num_records parameter
+def GetFlashData(id, day, IPI, sensorType, num_records=1000):  # Added num_records parameter
     global nodeID, packetTime, CurrentTime, rawFlash
     rawFlash = []
     CurrentTime = int(time.time())
