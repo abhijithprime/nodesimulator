@@ -51,10 +51,8 @@ class SensorVariant(Enum):
 
     def isSensorTestDevice(sensorVariant):
         sensorTypeID = sensorVariant.value
-        match sensorTypeID:
-            case 0 | 100 | 96 | 97 | 98 | 99:
-                return True
-
+        if sensorTypeID in [0, 100, 96, 97, 98, 99]:
+            return True
         return False
 
     # TODO This was reversed engineered cause no documentation. Needs verification.
@@ -63,21 +61,19 @@ class SensorVariant(Enum):
             return False
 
         sensorTypeID = sensorVariant.value
-
-        match sensorTypeID:
-            case 2 | 3 | 4 | 5 | 33:
-                return type == "beam_an"
-            case 6 | 7 | 8 | 9 | 10 | 11 | \
-                 16 | 17 | 18 | 19 | 20 | 21 | 22 | \
-                 24 | \
-                 26 | 27 | 28 | 29 | 30 | 31 | 32 | \
-                 34 | 35 | 36 | 37 | \
-                 39 | 40 | 41 | 42 | 43 | 44:
-                return type == "beam_dg"
-            case 1 | 23 | 38:
-                return type == "beam_vw"
-            case _:
-                print("ERROR: sensor type " + sensorVariant.name + "(" + str(sensorTypeID) + ") not handled")
+        if sensorTypeID in [2, 3, 4, 5, 33]:
+            return type == "beam_an"
+        elif sensorTypeID in [6, 7, 8, 9, 10, 11,
+                              16, 17, 18, 19, 20, 21, 22,
+                              24,
+                              26, 27, 28, 29, 30, 31, 32,
+                              34, 35, 36, 37,
+                              39, 40, 41, 42, 43, 44]:
+            return type == "beam_dg"
+        elif sensorTypeID in [1, 23, 38]:
+            return type == "beam_vw"
+        else:
+            print("ERROR: sensor type " + sensorVariant.name + "(" + str(sensorTypeID) + ") not handled")
 
     def checkToGetTheSensorAddresses(sensorVariant, maxSensors):
         if maxSensors <= 0:
