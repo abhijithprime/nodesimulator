@@ -29,34 +29,22 @@ class CmdHandler:
         if ("device_info" in out):
             self.__HandleDeviceInfo(out)
         elif ("channel_info" in out):
-            time.sleep(5)
             self.__HandleChannelInfo(out, self.configured_sensors)
-            time.sleep(5)
         elif ("channel_enable" in out):
-            time.sleep(5)
             self.__HandleChannelEnable(out)
-            time.sleep(5)
         elif ("start_monitoring" in out):
-            time.sleep(5)
             self.__HandleStartMonitoring(out)
-            time.sleep(5)
         elif ("read_sensor" in out):
             self.__HandleReadSensor(out, self.configured_sensors)
         elif ("get_address" in out):
-            time.sleep(5)
             self.__HandleGetAddress(out)
         elif ("start_rfscan" in out):
-            time.sleep(5)
             self.__HandleStartRFScan(out, self.ser)
-            time.sleep(5)
         elif ("read_flash" in out):
-            time.sleep(5)
             self.__HandleReadFlash(out)
         elif ("calibrate_sensor" in out):
-            time.sleep(5)
             self.__HandleCalibrateSensor(out)
         elif ("erase_flash" in out):
-            time.sleep(5)
             self.__HandleEraseFlash(out)
         elif ("util_diag" in out):
             self.__HandleUtilDiag(out)
@@ -83,7 +71,6 @@ class CmdHandler:
         updateHandler = UpdateHandler(self.ser)
 
     def __HandleDeviceInfo(self, out):
-        time.sleep(5)
         """For the command device_info"""
         data = out.split()
         if len(data) > 1:
